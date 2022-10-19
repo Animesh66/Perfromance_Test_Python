@@ -1,1 +1,1 @@
-from locust import task
+from locust import TaskSet, wait_time, User, task, HttpUser, SequentialTaskSet, constant
